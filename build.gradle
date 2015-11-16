@@ -24,5 +24,10 @@ dependencies {
 }
 
 test {
+    // systemProperties "webdriver.firefox.bin": "/Applications/Firefox.app/Contents/MacOS/firefox-bin"
     systemProperties "geb.build.reportsDir": "$reportsDir/geb"
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.8'
 }
