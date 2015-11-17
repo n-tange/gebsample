@@ -16,7 +16,7 @@ seleminu-webdriverが上記のバイナリを参照するようになってい�
 
     test{
         //Windows 64bitの場合
-        systemProperties "webdriver.firefox.bin": /C:¥Program Files¥Mozilla Firefox¥firefox.exe/
+        systemProperties "webdriver.firefox.bin": /D::¥myPrograms¥Mozilla Firefox¥firefox.exe/
     }
 
 また、avast アンチウイルスソフトがインストールされているとGebによるFirefoxの起動に失敗するので、実行時はavastによる保護を解除する。
