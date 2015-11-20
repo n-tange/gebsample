@@ -1,7 +1,7 @@
 import org.junit.Test
 import geb.Browser
 
-class JunitTest {
+class JunitGebTest {
 
     @Test
     void simpleGebTest() {
