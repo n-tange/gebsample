@@ -59,6 +59,12 @@ gradleラッパーの動作が確認できたら、テストを実行してみ�
     UNIX系  
     ./gradlew test
 
+##参考
+* Gradle 日本語ドキュメント 
+http://gradle.monochromeroad.com/docs/
+* Groovyを知らない人のためのbuild.gradle読み書き入門 
+http://goo.gl/oYn4DS
+
 ##メモ
 
     gradle init --type groovy-library
