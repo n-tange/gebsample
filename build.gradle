@@ -31,3 +31,21 @@ test {
 task wrapper(type: Wrapper) {
     gradleVersion = '2.8'
 }
+
+ant.condition(property:"os", value:"windows"){os(family: "windows")}
+ant.condition(property:"os", value:"unix"){os(family: "unix")}
+
+task openTestReport << {
+    switch(ant.properties.os){
+      case 'windows':
+        println "sorry, ur windows."
+        break
+      case 'unix':
+        if(reportsDir){
+          exec {
+              commandLine 'open', '-a', "Firefox", "$reportsDir/tests/index.html"
+          }
+        break
+        }
+    }
+}
