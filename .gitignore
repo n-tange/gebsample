@@ -3,3 +3,4 @@
 build/
 *.un~
 *.swp
+gradle-app.setting
