@@ -1,3 +1,5 @@
+package gebtest.page
+
 import geb.Page
 import geb.Module
 

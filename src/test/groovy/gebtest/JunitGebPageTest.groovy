@@ -1,5 +1,8 @@
+package gebtest
+
 import org.junit.Test
 import geb.Browser
+import gebtest.page.*
 
 class JunitGebPageTest {
 
