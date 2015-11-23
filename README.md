@@ -60,10 +60,14 @@ gradleラッパーの動作が確認できたら、テストを実行してみ�
     ./gradlew test
 
 ##参考
+* Geb公式(メニューのMANUALでマニュアルを参照可能)
+http://www.gebish.org/
 * Gradle 日本語ドキュメント 
 http://gradle.monochromeroad.com/docs/
 * Groovyを知らない人のためのbuild.gradle読み書き入門 
 http://goo.gl/oYn4DS
+* Spock Framework Reference 
+http://spockframework.github.io/spock/docs/1.0/index.html
 
 ##メモ
 
