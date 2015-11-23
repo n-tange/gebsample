@@ -4,3 +4,8 @@ build/
 *.un~
 *.swp
 gradle-app.setting
+/bin/
+.classpath
+.project
+.settings/
+
