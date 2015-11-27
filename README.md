@@ -60,6 +60,8 @@ gradleラッパーの動作が確認できたら、テストを実行してみ�
     ./gradlew test
 
 ##参考
+* 脱・独自改造！ GebでWebDriverをもっとシンプルに
+http://goo.gl/Ho8AxF
 * Geb公式(メニューのMANUALでマニュアルを参照可能)
 http://www.gebish.org/
 * Gradle 日本語ドキュメント 
