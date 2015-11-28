@@ -22,6 +22,7 @@ class JqueryLikePage extends Page{
 
 class SidemenuModule extends Module{
   static content = {
-    idx2{$("#sidebar .sidemenu a", text: "jQuery-like API")}
+    crossBrower{$("#sidebar .sidemenu a", text: "Cross Brower")}
+    jQueryLike{$("#sidebar .sidemenu a", text: "jQuery-like API")}
   }
 }

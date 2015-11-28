@@ -10,16 +10,17 @@ class SpockGebPageTest extends GebReportingSpec{
       
       when:
         to TopPage
+
       then:
         waitFor{ at TopPage }
         assert title == "Geb - Very Groovy Browser Automation"
         report '01_Geb_Top'
-      
+
       when:
-        sidemenu.idx2.click()
+        sidemenu.jQueryLike.click()
       then:
         waitFor{ at JqueryLikePage }
-        assert sidemenu.idx2.parent().hasClass("selected")
+        assert sidemenu.jQueryLike.parent().hasClass("selected")
         report '02_Geb_Navigating_Content'
     }
 }
