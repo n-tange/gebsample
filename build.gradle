@@ -28,8 +28,8 @@ dependencies {
 
     // Need a driver implementation
     // Drivers
-    //ztestCompile "org.seleniumhq.selenium:selenium-chrome-driver:$seleniumVersion"
-    testCompile "org.seleniumhq.selenium:selenium-firefox-driver:$seleniumVersion"
+    testCompile "org.seleniumhq.selenium:selenium-chrome-driver:$seleniumVersion"
+    //testCompile "org.seleniumhq.selenium:selenium-firefox-driver:$seleniumVersion"
     testRuntime "org.seleniumhq.selenium:selenium-support:2.45.0"
 }
 
