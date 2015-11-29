@@ -1,5 +1,8 @@
+package gebtest
+
 import org.junit.Test
 import geb.Browser
+import gebtest.page.*
 
 class JunitGebPageTest {
 
@@ -13,11 +16,11 @@ class JunitGebPageTest {
         report '01_Geb_Top'
 
         //sidemenu_2.click()
-        sidemenu.idx2.click()
+        sidemenu.jQueryLike.click()
 
         waitFor{ at JqueryLikePage }
         //assert sidemenu_2.parent().hasClass("selected")
-        assert sidemenu.idx2.parent().hasClass("selected")
+        assert sidemenu.jQueryLike.parent().hasClass("selected")
         report '02_Geb_Navigating_Content'
       }
     }

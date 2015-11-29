@@ -1,3 +1,5 @@
+package gebtest
+
 import org.junit.Test
 import geb.Browser
 

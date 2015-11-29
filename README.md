@@ -15,8 +15,8 @@ seleminu-webdriverが上記のバイナリを参照するようになってい�
 
 
     test{
-        //Windowsの場合
-        systemProperties "webdriver.firefox.bin": /D:¥myPrograms¥Mozilla Firefox¥firefox.exe/
+        //Windowsの場合（Windowsでもパスの指定はスラッシュで指定する良い）
+        systemProperties "webdriver.firefox.bin": "D:/myPrograms/Mozilla Firefox/firefox.exe"
     }
 
 また、avast アンチウイルスソフトがインストールされているとGebによるFirefoxの起動に失敗するので、実行時はavastによる保護を解除する。
@@ -58,6 +58,18 @@ gradleラッパーの動作が確認できたら、テストを実行してみ�
 
     UNIX系  
     ./gradlew test
+
+##参考
+* 脱・独自改造！ GebでWebDriverをもっとシンプルに
+http://goo.gl/Ho8AxF
+* Geb公式(メニューのMANUALでマニュアルを参照可能)
+http://www.gebish.org/
+* Gradle 日本語ドキュメント 
+http://gradle.monochromeroad.com/docs/
+* Groovyを知らない人のためのbuild.gradle読み書き入門 
+http://goo.gl/oYn4DS
+* Spock Framework Reference 
+http://spockframework.github.io/spock/docs/1.0/index.html
 
 ##メモ
 
