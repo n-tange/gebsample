@@ -9,10 +9,10 @@ class SpockGebPageTest extends GebReportingSpec{
         reportGroup 'sansou-dev.jp'
 
         when:
-        to TopPage
+        to TracTopPage
 
         then:
-        waitFor {at TopPage}
+        waitFor {at TracTopPage}
         report '01_Trac_Top'
 
         when:
